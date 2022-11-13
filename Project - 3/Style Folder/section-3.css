@@ -1,0 +1,111 @@
+.section-3 {
+  background-image: linear-gradient(#161615, rgba(9, 4, 30, 0.1), #161615),
+    url(../Image/six.jpg);
+  width: 100%;
+  height: 155vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.last-section-first-div h4 {
+  font-size: 55px;
+  margin: 200px 90px 0 90px;
+}
+
+.play-button {
+  display: flex;
+  align-items: center;
+  margin: 15px 90px 40px 90px;
+}
+
+.fa-circle-play {
+  font-size: 28px;
+  color: #d3d3d3;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.last-section-first-div p {
+  font-size: 13px;
+  margin: 10px 0;
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+/* -------- last section details --------- */
+
+.last-section-second-div {
+  display: flex;
+  align-items: center;
+  margin: 0 90px;
+}
+
+.last-section-details {
+  max-width: 300px;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-right: 100px;
+}
+
+/* -------- videosn ----------- */
+
+.video-1 {
+  width: 200px;
+  height: 120px;
+  margin: 0 10px;
+}
+
+/* last */
+
+.last-last {
+  display: flex;
+  margin: 0 90px;
+}
+
+.last-last p {
+  font-size: 14px;
+  color: #d3d3d3;
+}
+
+.fa-circle-check {
+  font-size: 10px;
+  margin-right: 5px;
+  color: #d3d3d3;
+}
+
+/* ---------- last links -------- */
+
+.last-links {
+  position: absolute;
+  bottom: 20px;
+  left: 33%;
+}
+
+.fa-instagram,
+.fa-youtube,
+.fa-pinterest-p,
+.fa-twitter {
+  font-size: 50px;
+  color: white;
+  transition: 0.2s;
+}
+
+.fa-instagram {
+  margin-right: 30px;
+}
+
+.fa-youtube,
+.fa-pinterest-p {
+  margin-inline: 30px;
+}
+
+.fa-twitter {
+  margin-left: 30px;
+}
+
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-pinterest-p:hover,
+.fa-twitter:hover {
+  color: red;
+}
