@@ -48,10 +48,10 @@ body::-webkit-scrollbar {
   font-size: 17px;
   list-style-type: none;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .section-1 nav ul li:hover {
-  border-bottom: 2px solid red;
   color: white;
 }
 
